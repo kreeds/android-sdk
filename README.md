@@ -291,7 +291,6 @@ Add the following code to your activity:
 ```java
 InterstitialAd interstitialAd = InterstitialAdPool.load(this, "YOUR_INTERSTITIAL_AD_UNIT_ID", interstitialAdListener);
 ```
-After calling the `loadAd()` method, the interstitial download starts. If you call `loadAd()` again before the banner is fully served, the previous request processing is cancelled. In this case, only the last request will be processed.
 
 When the banner download is completed, you can display the banner by calling `showAd()` method.
 ```java
